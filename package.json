@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ljharb/tsconfig": "^0.3.2",
     "express": "^5.1.0"
   },
   "description": ""

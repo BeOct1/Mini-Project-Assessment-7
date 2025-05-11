@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.get('/api/data', (req, res) => {
   // Simulate delay for asynchronous response
   setTimeout(() => {
-    res.json({ message: 'Hello from Node.js!', timestamp: Date.now() });
+    res.json({ message: 'Hello from Bitrus Edward of Cohort 3!', timestamp: Date.now() });
   }, 100); // 100ms delay
 });
 app.listen(PORT, () => {
